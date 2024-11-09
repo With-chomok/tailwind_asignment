@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .checkmark{
+        @apply flex items-center justify-center gap-1 md:gap-3 text-[#181818] font-normal  md:font-medium md:text-base text-sm 
+    }
+
+    .button{
+        @apply border border-[#F44335] md:px-1 md:py-1.5 px-0.5 py-1 rounded-full text-[#181818] text-lg hover:bg-teal-100 transition-all duration-200
+    }
+    
+}
